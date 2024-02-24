@@ -1,1 +1,36 @@
 # TENET
+TENET: Triple-Enhancement based Graph Neural Network for Cell-cell Interaction Network Reconstruction from Spatial Transcriptomics
+# TENET Installation
+Create the conda environment (Default installation path), other installation path, use -p to select your own path 
+```
+conda env create -f environment.yml
+```
+List all of the environment
+```
+conda info -envis
+```
+If the environment cannot be installed successfully, follow the following instructions:
+```
+conda create --name env python=3.8
+pip install -r requirements.txt
+```
+Installing pytorch torchvision torchaudio separately (check your own cuda version), my cuda version is 11.7 
+If the cuda version is different from mine, the following .whl files should be different.
+When installing pytorch dependencies, they are difficult to install and have a long wait time, my recommendation is to download their.whl file and install it.
+```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+pip install xxx.whl
+```
+These .whl files have the corresponding version, please check whether your torch version can match these packages.
+
+# Training
+To get started, enter into TENET, and you can simply type this code
+```
+python main.py
+```
+-m mode default to be "train".
+-t the train-test-split ratio.
+-fp, -fn two noise ratio.
+another hyperparamters can be modify by yourself.
+
+
