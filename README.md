@@ -34,6 +34,7 @@ python main.py
 another hyperparamters can be modify by yourself.
 
 # Cite
+```
 @article{lee2024tenet,
   title={TENET: Triple-Enhancement based Graph Neural Network for Cell-cell Interaction Network Reconstruction from Spatial Transcriptomics},
   author={Lee, Yujian and Xu, Yongqi and Gao, Peng and Chen, Jiaxing},
@@ -42,3 +43,4 @@ another hyperparamters can be modify by yourself.
   year={2024},
   publisher={Elsevier}
 }
+```
