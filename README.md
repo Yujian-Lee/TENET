@@ -33,4 +33,12 @@ python main.py
 -fp, -fn two noise ratio.
 another hyperparamters can be modify by yourself.
 
-
+# Cite
+@article{lee2024tenet,
+  title={TENET: Triple-Enhancement based Graph Neural Network for Cell-cell Interaction Network Reconstruction from Spatial Transcriptomics},
+  author={Lee, Yujian and Xu, Yongqi and Gao, Peng and Chen, Jiaxing},
+  journal={Journal of Molecular Biology},
+  pages={168543},
+  year={2024},
+  publisher={Elsevier}
+}
