@@ -61,7 +61,7 @@ class Global(torch.nn.Module):
     def __init__(self, in_channels, out_channels, heads=8, dropout=0.4, bias=True):
         super(Global, self).__init__()
         self.conv1 = GATConv(in_channels, out_channels, heads=heads, concat=True, dropout=dropout, bias=bias)
-        self.se = Local_stage2(256)
+        self.se = Local_stage2(512)
         self.conv2 = GATConv(heads * out_channels, out_channels, heads=heads, concat=False, dropout=dropout, bias=bias)
 
     def forward(self, data):
@@ -76,7 +76,7 @@ class Global(torch.nn.Module):
         x = self.conv2(x, edge_index)
         return F.log_softmax(x, dim=1),temp2
 
-
+# block test
 if __name__ == '__main__':
     dummy_input =  torch.rand([100, 32])
     dummy_edge = torch.randint(0,100,[2,10000])
