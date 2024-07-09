@@ -1,6 +1,6 @@
 # TENET
 ## TENET: Triple-Enhancement based Graph Neural Network for Cell-cell Interaction Network Reconstruction from Spatial Transcriptomics
-![image][https://github.com/Yujian-Lee/TENET/blob/main/model%20architecture.png]
+![image](https://github.com/Yujian-Lee/TENET/blob/main/model%20architecture.png)
 # TENET Installation
 Create the conda environment (Default installation path), other installation path, use -p to select your own path 
 ```
