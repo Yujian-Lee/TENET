@@ -2,13 +2,13 @@
 ## TENET: Triple-Enhancement based Graph Neural Network for Cell-cell Interaction Network Reconstruction from Spatial Transcriptomics
 ![image](https://github.com/Yujian-Lee/TENET/blob/main/model%20architecture.png)
 # TENET Installation
-Create the conda environment (Default installation path), other installation path, use -p to select your own path 
+Create the conda environment (Default installation path), other installation path, use -p to select your own path:
 ```
 conda env create -f environment.yml
 ```
-List all of the environment
+List all of the environment:
 ```
-conda info -envs
+conda info -envs:
 ```
 To activate the environment
 ```
@@ -29,7 +29,7 @@ pip install xxx.whl
 These .whl files have the corresponding version, please check whether your torch version can match these packages.
 
 # Training
-To get started, run the following code.
+To get started, run the following code:
 
 ```
 conda activate TENET
