@@ -8,7 +8,11 @@ conda env create -f environment.yml
 ```
 List all of the environment
 ```
-conda info -envis
+conda info -envs
+```
+To activate the environment
+```
+conda activate TENET
 ```
 If the environment cannot be installed successfully, follow the following instructions:
 ```
