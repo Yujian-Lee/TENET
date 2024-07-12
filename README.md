@@ -25,8 +25,11 @@ pip install xxx.whl
 These .whl files have the corresponding version, please check whether your torch version can match these packages.
 
 # Training
-To get started, enter into TENET, and you can simply type this code
+To get started, enter into TENET
+
 ```
+conda activate TENET
+cd TENET
 python main.py
 ```
 ```
