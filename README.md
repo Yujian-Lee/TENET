@@ -10,7 +10,7 @@ List all of the environment:
 ```
 conda info -envs:
 ```
-To activate the environment
+To activate the environment:
 ```
 conda activate TENET
 ```
