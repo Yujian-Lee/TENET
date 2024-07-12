@@ -12,7 +12,7 @@ conda info -envis
 ```
 If the environment cannot be installed successfully, follow the following instructions:
 ```
-conda create --name env python=3.8
+conda create --name TENET python=3.8
 pip install -r requirements.txt
 ```
 Installing pytorch torchvision torchaudio separately (check your own cuda version), my cuda version is 11.7 
