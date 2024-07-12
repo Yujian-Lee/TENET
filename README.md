@@ -29,9 +29,11 @@ To get started, enter into TENET, and you can simply type this code
 ```
 python main.py
 ```
+```
 -m mode default to be "train".
 -t the train-test-split ratio.
 -fp, -fn two noise ratio.
+```
 another hyperparamters can be modify by yourself.
 
 # Cite
