@@ -1,4 +1,4 @@
-name: base
+name: TENET
 channels:
   - conda-forge
 dependencies:
