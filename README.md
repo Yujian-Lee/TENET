@@ -8,7 +8,7 @@ conda env create -f environment.yml
 ```
 List all of the environment:
 ```
-conda info -envs:
+conda info -envs
 ```
 To activate the environment:
 ```
