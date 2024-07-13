@@ -19,12 +19,14 @@ If the environment cannot be installed successfully, follow the following instru
 conda create --name TENET python=3.8
 pip install -r requirements.txt
 ```
-Installing pytorch torchvision torchaudio separately (check your own cuda version), my cuda version is 11.7 
-If the cuda version is different from mine, the following .whl files should be different.
-When installing pytorch dependencies, they are difficult to install and have a long wait time, my recommendation is to download their.whl file and install it.
+Installing pytorch torchvision torchaudio separately (check your own cuda version), my cuda version is 11.7. 
 ```
 # To check the cuda version
 nvcc -V
+```
+If the cuda version is different from mine, the following .whl files should be different.
+When installing pytorch dependencies, they are difficult to install and have a long wait time, my recommendation is to download their.whl file and install it.
+```
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 pip install xxx.whl
 ```
