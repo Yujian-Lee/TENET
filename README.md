@@ -23,6 +23,8 @@ Installing pytorch torchvision torchaudio separately (check your own cuda versio
 If the cuda version is different from mine, the following .whl files should be different.
 When installing pytorch dependencies, they are difficult to install and have a long wait time, my recommendation is to download their.whl file and install it.
 ```
+# To check the cuda version
+nvcc -V
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 pip install xxx.whl
 ```
