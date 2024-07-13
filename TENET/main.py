@@ -24,7 +24,7 @@ def parse_arguments():
                      help="study name")
     parser.add_argument("-t", "--split", type=float,default = 0.7,
         help="# of test edges [0,1)")
-    parser.add_argument("-n", "--numgenespercell", type=int, default = 45,
+    parser.add_argument("-n", "--numgenespercell", type=int, default = 60,
                 help="Number of genes in each gene regulatory network")
     parser.add_argument("-k", "--nearestneighbors", type=int, default = 2,
                 help="Number of nearest neighbors for each cell")
