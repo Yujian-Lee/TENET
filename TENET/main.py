@@ -28,8 +28,6 @@ def parse_arguments():
                 help="Number of genes in each gene regulatory network")
     parser.add_argument("-k", "--nearestneighbors", type=int, default = 2,
                 help="Number of nearest neighbors for each cell")
-    parser.add_argument("-l", "--lrdatabase", type=int, default=0,
-                    help="0/1/2 for which Ligand-Receptor Database to use")
     parser.add_argument("--fp", type=float, default=0,
         help="(experimentation only) # of false positive test edges [0,1)")
     parser.add_argument("--fn", type=float, default=0,
