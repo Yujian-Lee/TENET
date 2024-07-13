@@ -18,7 +18,7 @@ If the environment cannot be installed successfully, follow the following instru
 ```
 conda create --name TENET python=3.8
 ```
-After having the dependencies installed successfully, activate the environment, and start installing the packages.
+Activate the python environment, and start installing the packages.
 ```
 conda activate TENET
 pip install -r requirements.txt
@@ -34,8 +34,6 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 # When installing pytorch dependencies, they are difficult to install and have a long wait time, my recommendation is to download their.whl file and install it.
 pip install xxx.whl
 ```
-
-
 # Training
 To get started, run the following code:
 
