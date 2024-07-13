@@ -15,7 +15,7 @@ debug = False
 def parse_arguments():
     parser = argparse.ArgumentParser(description='GAE arguments')
     parser.add_argument("-m", "--mode", type=str, default = "train",
-        help="GAE mode: preprocess,train,test")
+        help="GAE mode: preprocess,train")
     parser.add_argument("-i", "--inputdirpath", type=str,default = "../dataset/seqFISH/seqfish_dataframe.csv",
                     help="Input directory path where ST data is stored")
     parser.add_argument("-o", "--outputdirpath", type=str,default = "../output/seqfish",
