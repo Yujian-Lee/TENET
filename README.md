@@ -27,9 +27,10 @@ nvcc -V
 If the cuda version is different from mine, the following url and the provided .whl files should be different.
 ```
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+# When installing pytorch dependencies, they are difficult to install and have a long wait time, my recommendation is to download their.whl file and install it.
 pip install xxx.whl
 ```
-These .whl files have the corresponding version, please check whether your torch version can match these packages.
+
 
 # Training
 To get started, run the following code:
