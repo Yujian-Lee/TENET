@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 Installing pytorch torchvision torchaudio separately (check your own cuda version), my cuda version is 11.7. 
 ```
-# To check the cuda version
+### To check the cuda version
 nvcc -V
 ```
 If the cuda version is different from mine, the following url and the provided .whl files should be different.
