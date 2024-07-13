@@ -31,6 +31,9 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install xxx.whl
 ```
 After having the dependencies installed successfully, activate the environment.
+```
+conda activate TENET
+```
 
 # Training
 To get started, run the following code:
