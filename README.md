@@ -32,7 +32,6 @@ These .whl files have the corresponding version, please check whether your torch
 To get started, run the following code:
 
 ```
-conda activate TENET
 cd TENET
 python main.py
 ```
