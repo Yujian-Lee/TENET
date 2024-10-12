@@ -35,7 +35,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install xxx.whl
 ```
 # Training
-To get started, run the following code:
+To get started, run the following code (all the model python files are placed at the "TENET" directory, not the current directory):
 
 ```
 cd TENET
