@@ -12,7 +12,13 @@ class ContrastiveLoss(nn.Module):
         # self.register_buffer("negatives_mask", (~torch.eye((batch_size * 4 - 2), dtype=torch.bool)).float().detach())
         # # self.register_buffer("negatives_mask", (~torch.eye((batch_size * 4 - 2), dtype=torch.bool)).float())
         # # self.register_buffer("negatives_mask", (~torch.eye((batch_size * 4 - 2), dtype=torch.bool)).float())
+        
+        # the number setting here need to be modify according to the number of the cells
+        # for the contrastive learning, we have to put two embedding together, takes the seqFISH dataset as an example, it contains 1597 cells, denoting to have 3194 elements in total
+        # therefore, the number of the negative mask must match 3194, where batch_size * 4 - 2 -> (799*4-2 = 3194) -> "ContrastiveLoss(799)"
+        # for the MERFISH and the scMultiSim datasets, containing 2000 and 1200 cells respectively, therefore, the number here "ContrastiveLoss(number)" is set to be (2000+2000)/4 and (1200+1200)/4
         self.register_buffer("negatives_mask", (~torch.eye(batch_size * 4-2, batch_size * 4-2, dtype=torch.bool)).float())	
+        
 
     
     def forward(self, emb_i, emb_j):
