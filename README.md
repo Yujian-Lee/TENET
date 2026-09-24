@@ -18,7 +18,7 @@ If the environment cannot be installed successfully, follow the following instru
 ```
 conda create --name TENET python=3.8
 ```
-Activate the Python environment, and start installing the packages.
+Activate the Python environment, and start installing the packages
 ```
 conda activate TENET
 pip install -r requirements.txt
